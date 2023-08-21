@@ -1,13 +1,7 @@
-import { Link } from "react-router-dom";
 import "./App.css";
-import { TodoForm } from "./components/TodoForm";
 
 function App() {
-  return (
-    <div>
-      <Link to={"/"}>{<TodoForm />}</Link>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
